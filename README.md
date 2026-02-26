@@ -5,6 +5,10 @@
 1. Pastikan Python 3.9+ sudah terinstall.
 2. Buka terminal / PowerShell di:
 
+  ```Masuk ke virtual Environment
+  source venv\Scripts\activate
+  ```
+
    ```bash
    cd C:\Tracking_number
    ```
