@@ -51,16 +51,23 @@ Anda bisa cek dokumentasi interaktif di:
 
 ```json
 {
-  "plates": [
-    {
-      "bbox": { "x1": 100, "y1": 200, "x2": 300, "y2": 260 },
-      "confidence": 0.92,
-      "class_id": 0,
-      "plate_text": "B 1234 CD",
-      "ocr_confidence": 0.81
-    }
-  ],
-  "count": 1
+    "plates": [
+        {
+            "bbox": {
+                "x1": 1086,
+                "y1": 1354,
+                "x2": 1313,
+                "y2": 1437
+            },
+            "confidence": 0.8520758152008057,
+            "class_id": 1,
+            "crop_path": "outputs/plate_crops/b1e678d0707443199a0459ec26b574fb.jpg",
+            "plate_text": "",
+            "ocr_confidence": null
+        }
+    ],
+    "count": 1,
+    "annotated_image_path": "outputs/annotated/acc62802eb3c4d6e8852373a9de63ffe.jpg"
 }
 ```
 
